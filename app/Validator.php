@@ -7,9 +7,9 @@ namespace App;
  *
  * Validates input against certain criteria
  *
- * @package Valitron
- * @author  Vance Lucas <vance@vancelucas.com>
- * @link    http://www.vancelucas.com/
+ * package Valitron
+ * author  Vance Lucas <vance@vancelucas.com>
+ * link    http://www.vancelucas.com/
  */
 class Validator
 {

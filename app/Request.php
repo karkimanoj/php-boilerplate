@@ -104,13 +104,10 @@ class Request
 			$fields = $field;
 		
 		$filteredInputs =  [];
-		foreach ($fields as  $field1) {
+		foreach ($fields as  $field1) 
+		{
 			if(isset($this->request[$field1]))
-			{
-
 				$filteredInputs[$field1] = $this->request[$field1];
-			
-			}
 		}
 
 		return $filteredInputs;
